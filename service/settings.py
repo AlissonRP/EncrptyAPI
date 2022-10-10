@@ -8,9 +8,10 @@ import os
     não encontre nas variaveis de ambiente.
 """
 API_NAME = "Servico API"
-VERSION_API = '1.0.1'
-TITLE_API = "api-sentimentos"
-DESCRIPTION_API = "API."
+VERSION_API = '0.01'
+TITLE_API = "api-encriptacao"
+DESCRIPTION_API = 'API que recebe um texto e retorna ele encriptado, foi desenvolvida somente para estudos, \
+                o link para o código pode ser encontrado clicando <a href="http://github.com">aqui</a>'
 
 # Flask settings
 FLASK_SERVER_NAME = None

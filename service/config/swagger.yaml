@@ -12,7 +12,7 @@ schemes:
 
 tags:
   - name: AS Template
-    description: 'Welcome to AS Template Flask API.'
+    description: 'Tenho que pensar em o que colocar aqui ainda'
 
 paths:
   /main:
@@ -21,7 +21,7 @@ paths:
         - AS Template
       description: 'AS Template Flask API.'
       parameters:
-        - name: main
+        - name: mude_pfr
           in: body
           required: true
           description: 'teste'

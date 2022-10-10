@@ -15,6 +15,9 @@ class MainService(Resource):
 
     @api.expect(doc_swagger.INPUT_MAIN_SERVICE)
     def post(self) -> dict:
+        """
+        Selecione aqui para usar o método post
+        """
         try:
             dados_request = request.get_json()
             main_service = LowerService()

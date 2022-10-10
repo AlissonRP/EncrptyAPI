@@ -1,7 +1,7 @@
 # Mensagens log API
 INICIO_LOAD_SERVICO = "Carregando o servico..."
 FIM_LOAD_MODEL = "Servico carregado."
-INICIO_PREDICT = "Iniciando a classificacao..."
+INICIO_PREDICT = "Iniciando a encriptacao..."
 FIM_PREDICT = "Fim do tratamento."
 
 # Error Business #
@@ -14,6 +14,6 @@ ERROR_NONE_TYPE = 'Arquivo invalido. verifique o tipo do documento.'
 ERROR_KEY = 'Chave incorreta'
 
 # Sucess Business #
-SUCESSO_GET = "Classificador OK."
-SUCESSO_PREDICT = "Classificacao realizada com sucesso."
+SUCESSO_GET = "Encriptador OK."
+SUCESSO_PREDICT = "Encriptacao realizada com sucesso."
 SUCESSO_ENDPOINT = "Endpoints funcionando"

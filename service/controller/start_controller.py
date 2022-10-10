@@ -10,5 +10,5 @@ start = api.namespace("")
 class StartController(Resource):
     @api.response(200, 'Enviado com sucesso.')
     def get(self) -> dict:
-        """Welcome to AS Template Flask API."""
+        """Bem vindo a API que ainda não tem um método GET!"""
         return Response('aplicação funcionando')
