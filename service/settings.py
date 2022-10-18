@@ -8,24 +8,24 @@ import os
     não encontre nas variaveis de ambiente.
 """
 API_NAME = "Servico API"
-VERSION_API = '0.01'
+VERSION_API = "0.01"
 TITLE_API = "api-encriptacao"
 DESCRIPTION_API = 'API que recebe UM texto e retorna ele encriptado, foi desenvolvida somente para estudos, \
-                o link para o código pode ser encontrado clicando <a href="http://github.com">aqui</a>'
+                o link para o código pode ser encontrado clicando <a href="https://github.com/AlissonRP/EncrptyAPI  ">aqui</a>'
 
 # Flask settings
 FLASK_SERVER_NAME = None
-FLASK_HOST = os.environ.get('FLASK_HOST', "0.0.0.0")
-FLASK_PORT = os.environ.get('FLASK_PORT', "9000")
+FLASK_HOST = os.environ.get("FLASK_HOST", "0.0.0.0")
+FLASK_PORT = os.environ.get("FLASK_PORT", "9000")
 FLASK_DEBUG = True  # Do not use debug mode in production
 
 # Flask-Restplus settings
-RESTPLUS_SWAGGER_UI_DOC_EXPANSION = 'list'
+RESTPLUS_SWAGGER_UI_DOC_EXPANSION = "list"
 RESTPLUS_VALIDATE = True
 RESTPLUS_MASK_SWAGGER = False
 RESTPLUS_ERROR_404_HELP = False
 
-URL_PREFIX = os.environ.get('URL_PREFIX', '')
+URL_PREFIX = os.environ.get("URL_PREFIX", "")
 
 PATH_LOG = os.environ.get("PATH_LOG", "./log_project_name")
-POOL_CPU = int(os.environ.get("POOL_CPU", os.cpu_count()-1))
+POOL_CPU = int(os.environ.get("POOL_CPU", os.cpu_count() - 1))
