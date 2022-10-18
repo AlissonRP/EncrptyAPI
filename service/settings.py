@@ -10,7 +10,7 @@ import os
 API_NAME = "Servico API"
 VERSION_API = '0.01'
 TITLE_API = "api-encriptacao"
-DESCRIPTION_API = 'API que recebe um texto e retorna ele encriptado, foi desenvolvida somente para estudos, \
+DESCRIPTION_API = 'API que recebe UM texto e retorna ele encriptado, foi desenvolvida somente para estudos, \
                 o link para o código pode ser encontrado clicando <a href="http://github.com">aqui</a>'
 
 # Flask settings
